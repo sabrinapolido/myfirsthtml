@@ -1,0 +1,84 @@
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     color: white;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ ul{
+     list-style: none;
+     font-style: italic;
+     font-size: 25px;
+     font-weight: 300;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+
+ body{
+     background-image: url(./background.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ header{
+     display: flex;
+     justify-content: space-around;
+     padding: 10px;
+ }
+
+ header ul {
+     display: flex;
+     align-items: center;
+     
+ }
+
+ header ul li {
+     padding: 10px;
+ }
+
+ .container{
+     text-align: center;
+}
+
+ .container .nome h1{
+    font-family: 'Poppins', sans-serif;
+     font-size: 50px;
+     color: #6D458B;
+}
+ 
+ .container .nome h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+ #botaoenviar{
+     color: black;
+ }
+
+ #about p{
+     max-width: 500px;
+     margin: auto;
+ }
+
+ .form{
+     width: 40%;
+     margin: 0 auto;
+ }
+
+ .form input{
+     width: 60%;
+     color: black;
+ }
+
+ .form button {
+     width: 15%;
+ }
+
+ #MINHAFOTO{
+     max-width: 150px; 
+ }
